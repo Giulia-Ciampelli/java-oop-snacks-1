@@ -14,5 +14,11 @@ public class Main {
         System.out.println(conto1.getNumeroConto());
         System.out.println(conto1.getSaldo());
         System.out.println(conto1.gestisciConto());
+
+        // creazione oggetto registro
+        RegistroStudenti registro1 = new RegistroStudenti();
+
+        registro1.registraStudente(studente1);
+        registro1.printRegistro();
     }
 }
