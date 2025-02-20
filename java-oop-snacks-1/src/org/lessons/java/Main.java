@@ -13,7 +13,6 @@ public class Main {
 
         System.out.println(conto1.getNumeroConto());
         System.out.println(conto1.getSaldo());
-        System.out.println(conto1.depositaConto());
-        System.out.println(conto1.prelevaConto());
+        System.out.println(conto1.gestisciConto());
     }
 }
